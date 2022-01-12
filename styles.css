@@ -1,0 +1,100 @@
+body {
+    background-image: url( "images\pattern-background-mobile.svg");
+    background-color: rgb(201, 221, 233);
+}
+
+a, h3, .btn {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5% auto 5%;
+}
+
+p {
+    color: ligh;
+    font-size: 0.8rem;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 0 0;
+    text-align: center;
+}
+
+.card-body {
+    border:;
+    padding: 10%;
+}
+
+.row {
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 5% 1%;
+    margin: 3% 0% 8%;
+}
+
+.col-6 {
+    padding-left: 1%;
+    line-height: 0.5;
+    text-align: left;    
+}
+
+.col-3 {
+    margin: auto;
+}
+
+.order-text {
+    padding: 2%;
+    line-height: 1.5;
+}
+
+.btn {
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color: rgb(97, 97, 187);
+}
+
+.cancel-order:hover {
+    color: black;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        border: none;
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+    .order-text {
+        padding: 4%;
+    }
+    a, h3, .btn {
+        font-size: 0.6rem;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+}
+
